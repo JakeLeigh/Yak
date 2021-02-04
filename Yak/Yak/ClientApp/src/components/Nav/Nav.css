@@ -11,7 +11,7 @@
   pointer-events: none;
 }
 .navTitle {
-  
+
 }
 .nav-wrapper{
   position: relative;
@@ -36,6 +36,4 @@
 .joinButton {
   color: #fff;
   background-color: #000;
-  border-color: #000;
-  padding: 1.04em 1.7368em;
 }

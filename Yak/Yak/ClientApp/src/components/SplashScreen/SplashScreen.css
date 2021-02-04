@@ -15,3 +15,29 @@
   object-position: 50% 50%;
   object-fit: cover;
 }
+
+.section-content {
+  position: relative;
+  padding-top: calc(100vmax / 3.5);
+  padding-bottom: 3vw;
+ 
+}
+.splashTitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.splashTitle h1 {
+  color: #fff;
+  font-size: 67px;
+  padding-bottom: 2rem;
+}
+.splashButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.splashButton {
+  color: #000;
+  background-color: #F9CD47;
+}

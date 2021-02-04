@@ -1,3 +1,8 @@
 body a{
   color: #23272e;
 }
+.yakButton{
+  padding: 1.4em 1.7em 1.4em 1.7em;
+  font-weight: 700;
+  border: none;
+}
