@@ -4,10 +4,12 @@ import './Nav.css';
 class Nav extends React.Component{
   render(){
     return (
-      <header class='nav'>
-        <div class='nav-wrapper'>
-          <div class='nav-inner container-fluid'>
-            <a href='/'>YAK</a>
+      <header className='nav'>
+        <div className='nav-wrapper'>
+          <div className='nav-inner container-fluid'>
+            <a href='/' class='navTitle'>YAK</a>
+            <a>About</a>
+            <button className='joinButton'>Join Now</button>
           </div>
         </div>
       </header>
