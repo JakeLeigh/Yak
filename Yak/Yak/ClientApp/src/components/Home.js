@@ -1,10 +1,11 @@
 import React, {Component, Fragment} from 'react';
+import Nav from './Nav/Nav';
 
 class Home extends Component{
   render(){
     return (
       <Fragment>
-        <h1>Yak</h1>
+       <Nav />
       </Fragment>
     )
   }
