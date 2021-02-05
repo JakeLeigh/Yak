@@ -5,6 +5,9 @@
   padding-left: 3vw;
   min-height: 66vh;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .obstacleImage{
   top: 3vw;

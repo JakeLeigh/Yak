@@ -1,23 +1,24 @@
-.signUpDiv {
-  min-height: 66vh;
+.joinNowDiv {
+  min-height: 100vh;
   position: relative;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 }
-.signUpImageDiv {
+.joinNowImageDiv {
   top: -2vw;
   bottom: 3vw;
   position: absolute;
 }
-.manSittingImg {
+.manSittingImg2 {
   width: 100%;
   height: 100%;
   object-position: 50% 50%;
   object-fit: cover;
 }
-.signUpContent{
+.joinNowContent{
   position: relative;
+  text-align: center;
   color: white;
   padding: 2rem;
   margin: auto 0;

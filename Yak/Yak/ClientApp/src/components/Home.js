@@ -5,6 +5,7 @@ import Obstacles from './Obstacles/Obstacles';
 import Pricing from './Pricing/Pricing';
 import SignUp from './SignUp/SignUp';
 import SplashScreen from  './SplashScreen/SplashScreen';
+import JoinNow from './JoinNow/JoinNow';
 
 class Home extends Component{
   render(){
@@ -16,6 +17,7 @@ class Home extends Component{
        <Obstacles />
        <Pricing />
        <SignUp />
+       <JoinNow />
       </Fragment>
     )
   }
