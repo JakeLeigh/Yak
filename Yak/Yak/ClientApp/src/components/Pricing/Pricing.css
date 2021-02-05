@@ -1,0 +1,18 @@
+.pricing {
+  padding-top: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vw;
+  padding-left: 3vw;
+  text-align: center;
+  width: 100%;
+}
+
+.pricingDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pricingDiv div {
+  padding: 2rem;
+  width: 33%;
+}
