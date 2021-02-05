@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import LearnMore from './LearnMore/LearnMore';
 import Nav from './Nav/Nav';
+import Obstacles from './Obstacles/Obstacles';
 import SplashScreen from  './SplashScreen/SplashScreen';
 
 class Home extends Component{
@@ -10,6 +11,7 @@ class Home extends Component{
        <Nav />
        <SplashScreen />
        <LearnMore />
+       <Obstacles />
       </Fragment>
     )
   }

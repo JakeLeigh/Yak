@@ -1,6 +1,7 @@
 .LearnMoreContainer{
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 .learnMoreDiv {
   padding-top: 6.6vmax;

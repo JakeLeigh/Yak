@@ -1,0 +1,22 @@
+.obstacleBackground {
+  padding-top: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vw;
+  padding-left: 3vw;
+  min-height: 66vh;
+  position: relative;
+}
+.obstacleImage{
+  top: 3vw;
+  right: 3vw;
+  bottom: 3vw;
+  left: 3vw;
+  position: absolute;
+}
+.leafBackground {
+  width: 100%;
+  height: 100%;
+  object-position: 50% 50%;
+  object-fit: cover;
+
+}
