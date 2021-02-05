@@ -18,5 +18,20 @@
   height: 100%;
   object-position: 50% 50%;
   object-fit: cover;
+}
+.obstacleContent {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  margin: auto 0;
+}
+.obstaclePoints {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
+.obstaclePoints div {
+  padding: 2rem;
 }
