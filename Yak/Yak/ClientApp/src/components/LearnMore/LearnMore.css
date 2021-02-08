@@ -6,7 +6,6 @@
 .learnMoreDiv {
   padding-top: 6.6vmax;
   padding-bottom: 6.6vmax;
-  padding-right: 3vw;
   padding-left: 3vw;
   width: 100%;
   display: flex;
@@ -15,4 +14,19 @@
 }
 .learnMoreContent {
   margin: auto 0;
+  margin-right: 3rem;
+}
+
+.LearnMoreImage {
+  height: 80%;
+}
+
+.learnMoreTitle {
+  font-size: 40px;
+  padding-bottom: 2rem;
+}
+.learnMoreText {
+  line-height: 2rem;
+  font-size: 16px;
+  padding-bottom: 2rem;
 }
