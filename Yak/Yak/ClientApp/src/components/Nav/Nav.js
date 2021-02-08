@@ -8,7 +8,7 @@ class Nav extends React.Component{
         <div className='nav-wrapper'>
           <div className='nav-inner container-fluid'>
             <a href='/' class='navTitle'>YAK</a>
-            <a>About</a>
+            <a class='navAbout'>About</a>
             <button className='yakButton joinButton'>Join Now</button>
           </div>
         </div>
