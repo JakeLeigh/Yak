@@ -10,7 +10,7 @@ class Obstacles extends React.Component{
           <img class='leafBackground' src={leafBackground} />
         </div>
         <div class='obstacleContent'>
-          <h3>Overcome your obstacles</h3>
+          <h3 class='obstacleTitle'>Overcome your obstacles</h3>
           <div class='obstaclePoints'>
             <div>
               <h4>Increase Popularity</h4>

@@ -29,6 +29,9 @@
   padding: 2rem;
   margin: auto 0;
 }
+.obstacleTitle {
+  font-size: 40px;
+}
 .obstaclePoints {
   display: flex;
   flex-direction: row;
@@ -37,4 +40,7 @@
 
 .obstaclePoints div {
   padding: 2rem;
+}
+.obstaclePoints div h4 {
+  padding-bottom: 2rem;
 }
