@@ -6,6 +6,7 @@ import Pricing from './Pricing/Pricing';
 import SignUp from './SignUp/SignUp';
 import SplashScreen from  './SplashScreen/SplashScreen';
 import JoinNow from './JoinNow/JoinNow';
+import Footer from './Footer/Footer';
 
 class Home extends Component{
   render(){
@@ -18,6 +19,7 @@ class Home extends Component{
        <Pricing />
        <SignUp />
        <JoinNow />
+       <Footer />
       </Fragment>
     )
   }
