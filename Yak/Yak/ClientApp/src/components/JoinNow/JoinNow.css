@@ -23,3 +23,12 @@
   padding: 2rem;
   margin: auto 0;
 }
+.joinNowContent h2 {
+  font-size: 67px;
+  padding-bottom: 2rem;
+}
+.joinNowButton{
+  margin-top: 2rem;
+  color: #000;
+  background-color: #F9CD47;
+}

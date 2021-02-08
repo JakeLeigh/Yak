@@ -10,8 +10,9 @@ class JoinNow extends React.Component{
         <img class='manSittingImg2' src={manSitting2} />
       </div>
       <div class='joinNowContent'>
-        <h2>Got a workspace? Become a part of the UK's fastest-<br />growing office network</h2>
-        <button class='yakButton joinNowButton'>Sign Up</button>
+        <h2>Let’s kickstart your workspace revolution </h2>
+        <h4>We'll be with you every step of the way.</h4>
+        <button class='yakButton joinNowButton'>Join Now</button>
       </div>
     </div>
     )
