@@ -7,3 +7,26 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.footerTitleDiv h3{
+  padding-bottom: 7rem;
+}
+.footerLinksDiv{
+  margin-right: 14rem;
+}
+.footerLinksDiv ul {
+  text-decoration: underline;
+  list-style: none;
+  padding-left: 0;
+}
+.footerLinksDiv ul li {
+  line-height: 2rem;
+}
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.socialIcons i {
+  font-size: 20px;
+  margin-right: 2rem;
+}
