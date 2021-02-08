@@ -16,3 +16,15 @@
   padding: 2rem;
   width: 33%;
 }
+
+.pricingExplore{
+  text-decoration: underline;
+  font-size: 24px;
+  padding-top: 2rem;
+}
+.price{
+  padding-bottom: 2rem; 
+}
+.pricingDiv div p {
+  line-height: 2rem;
+}
