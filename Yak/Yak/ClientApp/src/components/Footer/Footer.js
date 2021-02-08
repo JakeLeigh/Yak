@@ -5,11 +5,11 @@ class Footer extends React.Component{
   render(){
     return (
       <div class='footer'>
-        <div class='footerTitleDiv'>
+        <div class='footerTitleDiv' data-aos="fade-up">
           <h3>YAK</h3>
           <p>Personalised business coaching</p>
         </div>
-        <div class='footerLinksDiv'>
+        <div class='footerLinksDiv' data-aos="fade-up">
           <ul>
             <li>Programs</li>
             <li>Press</li>

@@ -5,9 +5,9 @@ class Pricing extends React.Component{
   render(){
     return (
       <div class='pricing'>
-        <h2>Choose your starting point</h2>
-        <h3 class='pricingExplore'>Explore memberships and packs</h3>
-        <div class='pricingDiv'>
+        <h2 data-aos="fade-up">Choose your starting point</h2>
+        <h3  data-aos="zoom-in" class='pricingExplore'>Explore memberships and packs</h3>
+        <div class='pricingDiv'  data-aos="zoom-in">
           <div>
             <h4>Enterprise</h4>
             <h4 class='price'>Free</h4>

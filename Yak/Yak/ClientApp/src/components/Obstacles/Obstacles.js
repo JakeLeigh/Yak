@@ -10,8 +10,8 @@ class Obstacles extends React.Component{
           <img class='leafBackground' src={leafBackground} />
         </div>
         <div class='obstacleContent'>
-          <h3 class='obstacleTitle'>Overcome your obstacles</h3>
-          <div class='obstaclePoints'>
+          <h3 class='obstacleTitle' data-aos="fade-up">Overcome your obstacles</h3>
+          <div class='obstaclePoints' data-aos="zoom-in">
             <div>
               <h4>Increase Popularity</h4>
               <p>Give employees space in which they can focus, create and perform.</p>
