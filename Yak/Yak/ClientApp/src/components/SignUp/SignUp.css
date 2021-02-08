@@ -19,6 +19,14 @@
 .signUpContent{
   position: relative;
   color: white;
-  padding: 2rem;
+  padding: 3vw;
   margin: auto 0;
+}
+.signUpContent h2{
+  font-size: 35px;
+  padding-bottom: 2rem;
+}
+.signUpButton {
+  color: #000;
+  background-color: #F9CD47;
 }
