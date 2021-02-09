@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .learnMoreContent {
   margin: auto 0;
@@ -29,4 +30,11 @@
   line-height: 2rem;
   font-size: 16px;
   padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 50em){
+  .LearnMoreImage {
+    height: 80%;
+    width: 100%;
+  }
 }
