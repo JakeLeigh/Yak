@@ -1,5 +1,5 @@
 import React from 'react';
-import './JoinNow.css';
+import './JoinNow.scss';
 import manSitting2 from '../../assets/man-sitting2.jpg';
 
 class JoinNow extends React.Component{

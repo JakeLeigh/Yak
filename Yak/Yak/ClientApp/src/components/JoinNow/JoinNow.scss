@@ -32,3 +32,13 @@
   color: #000;
   background-color: #F9CD47;
 }
+
+@media only screen and (max-width: 50em){
+  .joinNowContent h2 {
+    font-size: 45px;
+    padding-bottom: 2rem;
+  }
+  .joinNowContent h4 {
+    font-size: 20px;
+  }
+}
