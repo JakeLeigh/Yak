@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import './SignUp.css';
+import './SignUp.scss';
 import manSitting from '../../assets/man-sitting.jpg';
 
 class SignUp extends React.Component{
