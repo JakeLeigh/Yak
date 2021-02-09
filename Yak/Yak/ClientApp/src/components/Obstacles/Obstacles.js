@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import './Obstacles.css';
+import './Obstacles.scss';
 import leafBackground from '../../assets/leafBackground.jpg';
 
 class Obstacles extends React.Component{
@@ -13,7 +13,7 @@ class Obstacles extends React.Component{
           <h3 class='obstacleTitle' data-aos="fade-up">Overcome your obstacles</h3>
           <div class='obstaclePoints' data-aos="zoom-in">
             <div>
-              <h4>Increase Popularity</h4>
+              <h4>Increase Productivity</h4>
               <p>Give employees space in which they can focus, create and perform.</p>
             </div>
             <div>
