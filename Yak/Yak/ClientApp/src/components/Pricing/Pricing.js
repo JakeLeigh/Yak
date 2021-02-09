@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import './Pricing.css';
+import './Pricing.scss';
 
 class Pricing extends React.Component{
   render(){
