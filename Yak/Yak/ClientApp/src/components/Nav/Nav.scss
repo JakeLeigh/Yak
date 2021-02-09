@@ -10,6 +10,19 @@
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   pointer-events: none;
 }
+.nav--collapsed{
+    display: none;
+    position: fixed;
+    background: green;
+    border-radius: .5em;
+    top: 0.875em;
+    right: 1.125em;
+    height: 3.25em;
+    width: 3.25em;
+    z-index: 1;
+    cursor: pointer;
+    transition: all .25s;
+}
 .navTitle {
   color: #23272e;
   text-decoration: none;
@@ -47,4 +60,39 @@
 .joinButton {
   color: #fff;
   background-color: #000;
+}
+
+
+.BurgerMenu {
+  position: fixed;
+  right: 1.5em;
+  top: 2.25em;
+  height: .5em;
+  width: 2.5em;
+  border-radius: 1em;
+  background: white;
+
+  &:before {
+    transition: all .25s;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -.75em;
+    height: .5em;
+    width: 2.5em;
+    border-radius: 1em;
+    background: white;
+  }
+
+  &:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: .75em;
+    height: .5em;
+    width: 2.5em;
+    border-radius: 1em;
+    background: white;
+    transition: all .25s;
+  }
 }

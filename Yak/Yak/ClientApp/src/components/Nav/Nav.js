@@ -1,10 +1,10 @@
 import React from 'react';
-import './Nav.css';
+import './Nav.scss';
 
 class Nav extends React.Component{
   render(){
     return (
-      <header className='nav'>
+      <nav className='nav'>
         <div className='nav-wrapper'>
           <div className='nav-inner container-fluid'>
             <a href='/' class='navTitle' data-aos="fade-up">YAK</a>
@@ -12,7 +12,10 @@ class Nav extends React.Component{
             <button className='yakButton joinButton' data-aos="fade-up">Join Now</button>
           </div>
         </div>
-      </header>
+        <div class='nav--collapsed'>
+          <div class='burgerMenu'></div>
+        </div>
+      </nav>
     )
   }
 }
