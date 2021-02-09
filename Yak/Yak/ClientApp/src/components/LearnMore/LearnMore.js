@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import './LearnMore.css';
+import './LearnMore.scss';
 import LadyWalking from '../../assets/ladyWalking.jpeg';
 
 class LearnMore extends React.Component{
