@@ -8,12 +8,18 @@
   flex-direction: row;
   justify-content: center;
   padding-bottom: 9rem;
+  //fix on desktop
 }
 .teamImg{
   width: 45%;
 }
-.teamMemberContent{
+.teamMemberContent1{
   margin: auto 0;
+  padding-left: 8rem;
+}
+.teamMemberContent2{
+  margin: auto 0;
+  padding-right: 8rem;
 }
 .teamMemberTitle{
   font-size: 40px;
@@ -22,4 +28,39 @@
 .teamMemberText{
   font-size: 16px;
   line-height: 2rem;
+}
+
+@media only screen and (max-width: 50em){
+  .meetTeam{
+    padding-top: 0rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .teamImg{
+    width: 100%;
+  }
+  .teamMemberContent1{
+    padding-left: 0;
+  }
+  .teamMemberContent2{
+    padding-right: 0;
+  }
+  .teamMemberTitle{
+    font-size: 30px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .teamMemberText{
+    font-size: 15px;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+  }
+  .teamMemberDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0rem;
+    //fix on desktop
+  }
 }
