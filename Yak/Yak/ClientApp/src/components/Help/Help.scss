@@ -36,3 +36,37 @@
   color: #f9cd47;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 50em){
+  .helpDiv {
+    height: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .helpPoints{
+    flex-direction: column;
+    padding-bottom: 0;
+    padding-top: 2rem;
+  }
+  .helpPoints div {
+    width: 100%;
+    padding: 0;
+  }
+  .helpTitle{
+    font-size: 30px;
+  }
+  .helpPoints div h4 {
+    padding-bottom: 1rem;
+    font-size: 20px;
+  }
+  .helpPoints div p {
+    line-height: 1.5rem;
+    font-size: 15px;
+    padding-bottom: 2rem;
+  }
+  .exploreTitle{
+    font-size: 25px;
+  }
+}
