@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Route } from 'react-router';
-import About from './components/About/About';
+import About from './components/About';
 import Home  from './components/Home';
 import './global.css';
 
