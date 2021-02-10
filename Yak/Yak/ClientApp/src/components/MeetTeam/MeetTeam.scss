@@ -1,0 +1,25 @@
+.meetTeam{
+  padding-top: 7rem;
+  margin: 0 auto;
+  width: 70%;
+}
+.teamMemberDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 9rem;
+}
+.teamImg{
+  width: 45%;
+}
+.teamMemberContent{
+  margin: auto 0;
+}
+.teamMemberTitle{
+  font-size: 40px;
+  padding-bottom: 3rem;
+}
+.teamMemberText{
+  font-size: 16px;
+  line-height: 2rem;
+}
