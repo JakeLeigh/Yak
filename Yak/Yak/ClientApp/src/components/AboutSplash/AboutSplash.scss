@@ -33,27 +33,17 @@
   font-size: 40px;
   padding-left: 2.5rem;
 }
-.splashButtons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.splashButton {
-  color: #000;
-  background-color: #F9CD47;
-}
 
 @media only screen and (max-width: 50em){
-  .splashTitle h1 {
-    text-align: center;
-    font-size: 45px;
-    padding-bottom: 2rem;
+  .aboutSplashTitle h1 {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 0;
   }
-  .splashButtons {
-    flex-direction: column;
-    align-items: center;
+  .background-image {
+    object-position: 60% 50%;
   }
-  .splashButton {
-    margin-bottom: 1.5rem;
+  .aboutSection-content {
+    padding-top: calc(100vmax / 2);
   }
 }
