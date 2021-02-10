@@ -5,8 +5,8 @@ class Help extends React.Component{
   render(){
     return (
       <div class='helpDiv'>
-        <h1 class='helpTitle'>We can help.</h1>
-        <div class='helpPoints'>
+        <h1 data-aos='fade-up' class='helpTitle'>We can help.</h1>
+        <div data-aos='fade-up' class='helpPoints'>
           <div>
             <h4>Bring your ideas to life</h4>
             <p>It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more.</p>
@@ -20,7 +20,7 @@ class Help extends React.Component{
             <p>We want to help you meet your maximum potential, whether it’s helping you building brand loyalty or expanding your business offerings.</p>
           </div>
         </div>
-        <h2 class='exploreTitle'>Explore memberships &amp; class packs </h2>
+        <h2 data-aos='fade-up' class='exploreTitle'>Explore memberships &amp; class packs </h2>
       </div>
     )
   }
