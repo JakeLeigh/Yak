@@ -20,7 +20,7 @@ return (
       <div className='nav-wrapper'>
         <div className='nav-inner container-fluid'>
           <a href='/' class='navTitle' data-aos="fade-up">YAK</a>
-          <a class='navAbout' data-aos="fade-up">About</a>
+          <a  href='/about' class='navAbout' data-aos="fade-up">About</a>
           <button className='yakButton joinButton' data-aos="fade-up">Join Now</button>
         </div>
       </div>
@@ -29,7 +29,7 @@ return (
       <a href='/' class='navTitle' data-aos="fade-up">YAK</a>
       <div class={this.state.toggleMobileNav===true ? 'Overlay--on Overlay' : 'Overlay'}>
         <ul class="Navigation-list">
-          <li><a class='navAbout' data-aos="fade-up">About</a></li>
+          <li><a href='/about' class='navAbout' data-aos="fade-up">About</a></li>
           <li><button className='yakButtonMobile joinButton' data-aos="fade-up">Join Now</button></li>
         </ul>
       </div>

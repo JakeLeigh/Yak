@@ -29,6 +29,11 @@
 .navAbout {
   color: #23272e;
   font-size: 16px;
+  cursor: pointer;
+}
+.navAbout:hover {
+  color: #23272e;
+  text-decoration: none;
 }
 .nav-wrapper{
   position: relative;
