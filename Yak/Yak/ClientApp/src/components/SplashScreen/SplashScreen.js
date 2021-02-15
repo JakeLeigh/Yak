@@ -1,6 +1,6 @@
 import React from 'react';
 import './SplashScreen.scss';
-import SplashImage from '../../assets/officeImage.jpg';
+import SplashImage from '../../assets/splashImage2.jpg';
 
 class SplashScreen extends React.Component{
 render(){
