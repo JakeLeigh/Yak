@@ -11,11 +11,11 @@ render(){
         </div>
         <div class='section-content'>
           <div class='splashTitle'>
-            <h1 data-aos="fade-up">The freedom to work productively</h1>
+            <h1 data-aos="fade-up">Making working remotely, work for you</h1>
           </div>
           <div class='splashButtons' data-aos="fade-up">
-            <button class='yakButton splashButton' >I'm an Employer</button>
-            <button class='yakButton splashButton' >I'm a Landlord</button>
+            <button class='yakButton splashButton' >I Have Spaces</button>
+            <button class='yakButton splashButton' >I Need Spaces</button>
           </div>
         </div>
     </main>
