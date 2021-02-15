@@ -31,7 +31,7 @@ return (
     </nav>
     <nav class="Navigation showOnMobile">
       <a href='/' class='navTitle' data-aos="fade-up">
-      <img src={YakLogoClear} class='yakLogo'/>
+      <img src={YakLogoText} class='yakLogo'/>
       </a>
       <div class={this.state.toggleMobileNav===true ? 'Overlay--on Overlay' : 'Overlay'}>
         <ul class="Navigation-list">
