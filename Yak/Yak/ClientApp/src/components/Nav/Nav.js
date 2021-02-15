@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import './Nav.scss';
+import YakLogoText from '../../assets/yakLogoText.png';
+import YakLogoClear from '../../assets/yakLogoClear.png';
 
 class Nav extends React.Component{
 state = { 
@@ -19,14 +21,18 @@ return (
     <nav className='nav showOnDesktop'>
       <div className='nav-wrapper'>
         <div className='nav-inner container-fluid'>
-          <a href='/' class='navTitle' data-aos="fade-up">YAK</a>
+          <a href='/' class='navTitle' data-aos="fade-up">
+            <img src={YakLogoText} class='yakLogo'/>
+          </a>
           <a  href='/about' class='navAbout' data-aos="fade-up">About</a>
           <button className='yakButton joinButton' data-aos="fade-up">Join Now</button>
         </div>
       </div>
     </nav>
     <nav class="Navigation showOnMobile">
-      <a href='/' class='navTitle' data-aos="fade-up">YAK</a>
+      <a href='/' class='navTitle' data-aos="fade-up">
+      <img src={YakLogoClear} class='yakLogo'/>
+      </a>
       <div class={this.state.toggleMobileNav===true ? 'Overlay--on Overlay' : 'Overlay'}>
         <ul class="Navigation-list">
           <li><a href='/about' class='navAbout' data-aos="fade-up">About</a></li>
