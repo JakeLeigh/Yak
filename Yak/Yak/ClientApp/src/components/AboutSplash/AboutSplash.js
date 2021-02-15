@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutSplash.scss';
-import aboutSplashImg from '../../assets/aboutSplash.jpg';
+import aboutSplashImg from '../../assets/splashImage1.jpg';
 
 class AboutSplash extends React.Component{
 render(){

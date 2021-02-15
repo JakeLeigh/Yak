@@ -1,7 +1,7 @@
 import React from 'react';
 import './MeetTeam.scss';
-import Woman1 from '../../assets/woman1.jpg';
-import Woman2 from '../../assets/woman2.jpg';
+import Woman1 from '../../assets/manSmiling.jpg';
+import Woman2 from '../../assets/womanSmiling.jpg';
 
 class MeetTeam extends React.Component{
   render(){
