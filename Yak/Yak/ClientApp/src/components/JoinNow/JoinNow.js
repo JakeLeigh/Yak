@@ -5,14 +5,14 @@ import manSitting2 from '../../assets/man-sitting2.jpg';
 class JoinNow extends React.Component{
   render(){
     return (
-      <div class='joinNowDiv'>
-      <div class='joinNowImageDiv'>
-        <img class='manSittingImg2' src={manSitting2} />
+      <div className='joinNowDiv'>
+      <div className='joinNowImageDiv'>
+        <img className='manSittingImg2' src={manSitting2} alt='man sitting at desk'/>
       </div>
-      <div class='joinNowContent'>
+      <div className='joinNowContent'>
         <h2 data-aos="fade-up">Let’s kickstart your workspace revolution </h2>
         <h4 data-aos="fade-up">We'll be with you every step of the way.</h4>
-        <button class='yakButton joinNowButton' data-aos="fade-up">Join Now</button>
+        <button className='yakButton joinNowButton' data-aos="fade-up">Join Now</button>
       </div>
     </div>
     )

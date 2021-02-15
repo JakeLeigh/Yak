@@ -5,13 +5,13 @@ import leafBackground from '../../assets/leafBackground.jpg';
 class Obstacles extends React.Component{
   render(){
     return (
-      <div class='obstacleBackground'>
-        <div class='obstacleImage'>
-          <img class='leafBackground' src={leafBackground} />
+      <div className='obstacleBackground'>
+        <div className='obstacleImage'>
+          <img className='leafBackground' src={leafBackground} alt='background image of leaves'/>
         </div>
-        <div class='obstacleContent'>
-          <h3 class='obstacleTitle' data-aos="fade-up">Overcome your obstacles</h3>
-          <div class='obstaclePoints' data-aos="zoom-in">
+        <div className='obstacleContent'>
+          <h3 className='obstacleTitle' data-aos="fade-up">Overcome your obstacles</h3>
+          <div className='obstaclePoints' data-aos="zoom-in">
             <div>
               <h4>Increase Productivity</h4>
               <p>Give employees space in which they can focus, create and perform.</p>
